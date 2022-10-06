@@ -1,0 +1,6 @@
+the mean number of apples eatan are: 6.114649681528663
+the median number of apples eaten are: 6
+the mean number of bananas eaten are: 5.840425531914893
+the median number of bananas eaten are: 6.0
+the mean number strawberries eaten are: 6.077419354838709
+the median number of strawberries eaten are:6

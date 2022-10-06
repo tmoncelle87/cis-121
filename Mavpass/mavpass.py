@@ -17,4 +17,38 @@
 #         print(even)
 
    
- 
+# cost= float(input("enter cost of clothing: "))
+# tax= .09
+# discounted= (cost *.7)
+# total_cost = (discounted * tax) + discounted
+# print("$",total_cost)
+
+# pool_height= float(input("Hey Ye what is the height of hot tub in inches?"))
+# pool_length= float(input("Hey Ye what is the length of hot tub in inches?"))
+# pool_width= float(input("Hey Ye what is the width of hot tub in inches?"))
+# cubic_inches = (pool_height * pool_length * pool_width)
+# gallons = cubic_inches / 231
+# print("Ye we have" , gallons , "gallons of water")
+
+
+# def function():
+#     count = 0 
+#     total = int(input("what are we counting towards?"))
+#     while count < total :
+#         print(count)
+#         count +=1
+
+# def function2():
+#     function()
+#     print("done")
+# function2()
+parameter_= int(input("enter a number to find the true divisors"))
+
+def     function(parameter_):
+
+    positive_even_divisor =[]
+    for i in range(1,parameter_):
+        if i % 2 == 0 and parameter_ % i == 0:
+            positive_even_divisor.append(i)
+    print(positive_even_divisor)
+function(parameter_)
