@@ -1,3 +1,0 @@
-the mean number of apples eatan are: [6.388888888888889]
-the median number of apples eaten are: [6.5]
-the mode number of apples is (are): [5, 8]

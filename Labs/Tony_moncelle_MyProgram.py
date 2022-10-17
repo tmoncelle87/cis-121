@@ -1,4 +1,4 @@
-import Tony_Moncelle_Stats2
+import Labs.Tony_Moncelle_Stats2 as Tony_Moncelle_Stats2
 file= open("50DayFruitData.txt",'r')
 #gathering all lines and seperating them by /n
 data= file.read().splitlines()

@@ -42,13 +42,46 @@
 #     function()
 #     print("done")
 # function2()
-parameter_= int(input("enter a number to find the true divisors"))
+# parameter_= int(input("enter a number to find the true divisors"))
 
-def     function(parameter_):
+# def     function(parameter_):
 
-    positive_even_divisor =[]
-    for i in range(1,parameter_):
-        if i % 2 == 0 and parameter_ % i == 0:
-            positive_even_divisor.append(i)
-    print(positive_even_divisor)
-function(parameter_)
+#     positive_even_divisor =[]
+#     for i in range(1,parameter_):
+#         if i % 2 == 0 and parameter_ % i == 0:
+#             positive_even_divisor.append(i)
+#     print(positive_even_divisor)
+# function(parameter_)
+# birthday= input("what month is your birthday")
+# months= ["january"........]
+# temp = []
+# for i in months:
+#     if i == birthday :
+#         temp.append([i,"yes"])
+#         else:
+#             temp.append([i,"no"])
+
+# print(temp)
+
+# def function():
+#     custumer_id=int(input("what is the customers id: "))
+#     import random
+#     dicti= {}
+#     for i in range(1,201):
+#         dicti[i] = random.randint(1,101)
+#     dicti.pop(custumer_id)
+#     with open("palindromes.txt",'w') as f:
+#         f.write(str(dicti))
+# function()    
+import random    
+list=[]
+dicti= {}
+for i in range(1,201):
+    list.append(random.randint(1,201))
+print(list)
+for i in range(0,199):
+    if i == 0:
+        dicti[list[i]] = list[i+1]
+    if i % 2 == 0:
+        dicti[list[i+1]] = list[i]
+print(dicti)
