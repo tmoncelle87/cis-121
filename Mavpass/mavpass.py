@@ -73,15 +73,32 @@
 #     with open("palindromes.txt",'w') as f:
 #         f.write(str(dicti))
 # function()    
-import random    
-list=[]
-dicti= {}
-for i in range(1,201):
-    list.append(random.randint(1,201))
-print(list)
-for i in range(0,199):
-    if i == 0:
-        dicti[list[i]] = list[i+1]
-    if i % 2 == 0:
-        dicti[list[i+1]] = list[i]
-print(dicti)
+# import random    
+# list=[]
+# dicti= {}
+# for i in range(1,201):
+#     list.append(random.randint(1,201))
+# print(list)
+# for i in range(0,199):
+#     if i == 0:
+#         dicti[list[i]] = list[i+1]
+#     if i % 2 == 0:
+#         dicti[list[i+1]] = list[i]
+# print(dicti)
+from string import capwords
+
+
+class hand:
+    def __init__(self,card,wins):
+        self.wins=wins
+    def find_winner(self,wins,list):
+        while wins <= 6:
+            if player1.cardone_suite == player2.cardone_suite: 
+                if player1.cardone_value > playe2.cardone_suite:
+                    player1.win +=1
+                    wins +=1
+                    return player1.win and wins
+            else:
+                player2.win +=1
+                wins +=1
+                return  wins and playr2win
